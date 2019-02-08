@@ -6,8 +6,4 @@ class A
 		self
 	end
 
-	def meth2
-		self.name
-	end
-
 end
