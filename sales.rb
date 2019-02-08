@@ -38,12 +38,14 @@ module Sales
     end
 
     def cal_tax(exp, imp)
+
       tax = Tax_cal::calculate(goods_count, goods_price, exp, imp)
       self.total_tax += tax 
       cost = (goods_count * goods_price) + tax
       self.total_price += cost
       @@total_collection += total_price
-      return cost
+      cost
+      
     end
   end
 end
