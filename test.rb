@@ -1,7 +1,3 @@
-print Integer("1")
-
-
-
 class A
 
 	name
