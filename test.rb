@@ -15,7 +15,3 @@ class A
 	end
 
 end
-
-a = A.new(name: 'test')
-
-a.meth2
